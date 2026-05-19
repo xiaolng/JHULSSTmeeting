@@ -1,0 +1,49 @@
+#footer .footer-logos {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+#footer .footer-logos img {
+	max-height: 64px;
+	max-width: 220px;
+	width: auto;
+}
+
+
+#header {
+	background: rgba(29, 36, 42, 0.75);
+}
+
+#banner:after {
+	background: #21b2a6;
+}
+
+
+body.landing #footer {
+	background-color: rgba(29, 36, 42, 0.75);
+}
+
+
+#footer {
+	background-color: rgba(29, 36, 42, 0.75);
+}
+
+
+.spotlight .image {
+	overflow: hidden;
+}
+
+.spotlight .image img {
+	transition: transform 0.3s ease;
+}
+
+.spotlight:hover .image img {
+	transform: scale(1.25);
+}
+
+
+
